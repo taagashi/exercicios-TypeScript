@@ -32,5 +32,5 @@ function calcularSituacaoAluno(nome, notas, frequencia) {
     }
     return `${nome} | ${calcularMedia(notas)}`;
 }
-const amanda = { nome: "Amanda", notas: [10, 0, 0], frequencia: 76 };
+const amanda = { nome: "Amanda", notas: [10, 5, 0], frequencia: 76 };
 console.log(calcularSituacaoAluno(amanda.nome, amanda.notas, amanda.frequencia));
